@@ -19,7 +19,7 @@ Connect-IPPSSession -EnableSearchOnlySession
 $SearchName = "purgeSched"
 
 # Address reccurence teams meeting
-$Query = '(kind:meetings OR ItemClass:IPM.Appointment*) AND From:“joseph.lee@softwareone.com” AND (“Microsoft Teams” OR “teams.microsoft.com”)'
+$Query = '(kind:meetings OR ItemClass:IPM.Appointment*) AND From:“joseph.lee@doamin.com” AND (“Microsoft Teams” OR “teams.microsoft.com”)'
 
 # Create the Content Search object
 New-ComplianceSearch -Name $SearchName -ExchangeLocation All -ContentMatchQuery $Query
