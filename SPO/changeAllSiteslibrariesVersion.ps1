@@ -11,7 +11,7 @@
 
 # Set the credentials
 $url = "https://???-admin.sharepoint.com/"
-$clientId = "e435a562-6322-491c-b669-8934bc992b43"
+$clientId = "e435a562-6322-491c-b669-8934bc992b43" # PnP enterprise application, Sample GUID
 $credentials = Get-Credential
 
 Connect-PnPOnline -Url $url -ClientId $clientId -Credentials $credentials
