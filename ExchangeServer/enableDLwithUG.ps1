@@ -1,4 +1,5 @@
 
+#import module or run EMS
 Add-PSSnapin *exchange*
  
 $OU = "OU=MailUsers,DC=all,DC=run,DC=local"
