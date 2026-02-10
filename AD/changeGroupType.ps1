@@ -1,3 +1,4 @@
+# change $OU
 
 $OU = "OU=MailUsers,DC=all,DC=run,DC=local"
 $allgroup = Get-ADGroup -SearchBase $OU -Filter *
