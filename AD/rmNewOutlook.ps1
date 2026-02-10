@@ -1,3 +1,4 @@
+
 $getNewOutlook = Get-AppPackage Microsoft.OutlookForWindows -AllUsers -ErrorAction SilentlyContinue
 
 if($getNewOutlook){
